@@ -14,6 +14,12 @@ export default {
         'blue': '#71B0C5',
         'pastel-blue': '#B3D1DC',
       },
+      fontFamily: {
+        montserrat: ['Montserrat'],
+        chango: ['Chango'],
+        caudex: ['Caudex'],
+        annieUseYourTelescope: ['AnnieUseYourTelescope'],
+      },
     },
   },
   plugins: [],

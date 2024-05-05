@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Chango';
+    src: url('/fonts/Chango-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Caudex';
+    src: url('/fonts/Caudex-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AnnieUseYourTelescope';
+    src: url('/fonts/AnnieUseYourTelescope-Regular.ttf') format('truetype');
+}

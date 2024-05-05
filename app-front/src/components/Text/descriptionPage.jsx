@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function DescriptionPage() {
+export default function DescriptionPage({title}) {
 return (
-    <p className='text-base sm:text-3xl text-black font-normal font-montserrat'>
-        dklsksds
+    <p className='mx-auto text-sm sm:text-2xl text-black font-normal font-montserrat text-center'>
+        {title}
     </p>
 )
 }

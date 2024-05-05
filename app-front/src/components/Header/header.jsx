@@ -19,7 +19,7 @@ return (
             <img
                 src='/img/img_banner.png'
                 alt="Ícone de menu"
-                className="w-[121px] sm:w-[234px] flex mx-auto"
+                className="w-[80px] sm:w-[120px] flex mx-auto"
             />
         </div>
     </header>

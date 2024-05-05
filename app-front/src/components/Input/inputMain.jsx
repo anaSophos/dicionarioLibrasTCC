@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function InputMain() {
 return (
-    <div className='mx-auto w-4/5 h-9 sm:h-12 bg-pastel-orange rounded-2xl border border-solid border-coral hover:border-2 justify-between flex flex-row'>
+    <div className='mx-auto mb-2.5 w-4/5 h-9 sm:h-12 bg-pastel-orange rounded-2xl border border-solid border-coral hover:border-2 justify-between flex flex-row'>
       <input 
         className='ml-1 rounded-2xl w-[70%] h-full bg-transparent focus:outline-none lg:text-[16px] text-[.8em] placeholder-[#EFAA93] text-sm sm:text-base'
         type='text'

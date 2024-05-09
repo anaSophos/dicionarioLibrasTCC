@@ -13,6 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Customer{
+// trecho para as models
+/*model Customer{
   id String @id @default(auto()) @map("_id") @db.ObjectId
-}
+}*

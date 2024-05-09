@@ -9,7 +9,7 @@ import Button from '../components/Button/button'
 import CardCategory from '../components/Cards/cardCategory'
 import CardCharacteristicImg from '../components/Cards/cardCharacteristicImg'
 
-const Home = () => {
+const PageWord = () => {
   return (
     <>    
     <Header/>
@@ -22,10 +22,10 @@ const Home = () => {
             alt="Ícone de clip"
             className="w-[16px] sm:w-[30px] flex mx-auto my-0.5 sm:my-2"
         />
-        <DescriptionPage title=''/>
-        <div className='w-[80%] mx-auto flex flex-wrap flex-row content-center justify-evenly items-center space-y-2'>
-            <CardCategory/>
-            <CardCategory/>
+        <DescriptionPage title='Confira alguns significados para a palavra “Égua” e seus respectivos sinais'/>
+        <div className='w-[80%] mx-auto flex flex-wrap flex-row content-center justify-around items-center space-y-2'>
+            <CardCharacteristicImg/>
+            <CardCharacteristicImg/>
         </div>
     </div>
     <Footer />
@@ -33,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default PageWord
